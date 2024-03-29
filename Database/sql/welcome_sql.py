@@ -7,8 +7,8 @@ from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 from Database.sql import BASE, SESSION
 from Mikobot.plugins.helper_funcs.msg_types import Types
 
-DEFAULT_WELCOME = "Hey {first}, how are you?"
-DEFAULT_GOODBYE = "Nice knowing you!"
+DEFAULT_WELCOME = "Hey {first}, kaise ho janab?"
+DEFAULT_GOODBYE = "Fir kabhi mulakat hogi!"
 
 DEFAULT_WELCOME_MESSAGES = [
     "{first} is here!",  # Discord welcome messages copied
